@@ -1,0 +1,333 @@
+{
+	"info": {
+		"_postman_id": "e70698c7-51fa-4fcb-baf0-09a44682f4d4",
+		"name": "Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "5day",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/forecast?q=Izhevsk,udm&mode=xml&APPID=e2c078e26648e8e09b6e90e982007c80",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Izhevsk,udm"
+						},
+						{
+							"key": "mode",
+							"value": "xml"
+						},
+						{
+							"key": "APPID",
+							"value": "e2c078e26648e8e09b6e90e982007c80"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5dayParis",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/forecast?q=Paris,us&mode=xml&APPID=e2c078e26648e8e09b6e90e982007c80",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Paris,us"
+						},
+						{
+							"key": "mode",
+							"value": "xml"
+						},
+						{
+							"key": "APPID",
+							"value": "e2c078e26648e8e09b6e90e982007c80"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5dayWashington",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/forecast?q=Washington,us&mode=xml&APPID=e2c078e26648e8e09b6e90e982007c80",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Washington,us"
+						},
+						{
+							"key": "mode",
+							"value": "xml"
+						},
+						{
+							"key": "APPID",
+							"value": "e2c078e26648e8e09b6e90e982007c80"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1dayWashington",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?q=Washington,us&APPID=e2c078e26648e8e09b6e90e982007c80",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Washington,us"
+						},
+						{
+							"key": "APPID",
+							"value": "e2c078e26648e8e09b6e90e982007c80"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1dayParis",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?q=Paris,us&APPID=e2c078e26648e8e09b6e90e982007c80",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Paris,us"
+						},
+						{
+							"key": "APPID",
+							"value": "e2c078e26648e8e09b6e90e982007c80"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1dayIzhevsk",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?q=Izhevsk,udm&APPID=e2c078e26648e8e09b6e90e982007c80",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Izhevsk,udm"
+						},
+						{
+							"key": "APPID",
+							"value": "e2c078e26648e8e09b6e90e982007c80"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "currentParis",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://api.openweathermap.org/pollution/v1/co/48,2/current.json?appid=e2c078e26648e8e09b6e90e982007c80",
+					"protocol": "http",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"pollution",
+						"v1",
+						"co",
+						"48,2",
+						"current.json"
+					],
+					"query": [
+						{
+							"key": "appid",
+							"value": "e2c078e26648e8e09b6e90e982007c80"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "currentWashington",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://api.openweathermap.org/pollution/v1/co/38,-77/current.json?appid=e2c078e26648e8e09b6e90e982007c80",
+					"protocol": "http",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"pollution",
+						"v1",
+						"co",
+						"38,-77",
+						"current.json"
+					],
+					"query": [
+						{
+							"key": "appid",
+							"value": "e2c078e26648e8e09b6e90e982007c80"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "currentIzhevsk",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://api.openweathermap.org/pollution/v1/co/56,53/current.json?appid=e2c078e26648e8e09b6e90e982007c80",
+					"protocol": "http",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"pollution",
+						"v1",
+						"co",
+						"56,53",
+						"current.json"
+					],
+					"query": [
+						{
+							"key": "appid",
+							"value": "e2c078e26648e8e09b6e90e982007c80"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
