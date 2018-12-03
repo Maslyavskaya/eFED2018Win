@@ -366,6 +366,38 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "triggersGET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://api.openweathermap.org/data/3.0/triggers?APPID=e2c078e26648e8e09b6e90e982007c80",
+					"protocol": "http",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"3.0",
+						"triggers"
+					],
+					"query": [
+						{
+							"key": "APPID",
+							"value": "e2c078e26648e8e09b6e90e982007c80"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
