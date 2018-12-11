@@ -14,46 +14,52 @@
 </head>
 
 <body>
-      <div id="">
-          <div id="">
+      <section id="">
+          <nav id="">
             <span id="menu">
             <input id="but1" type="button" value="Сегодня">
             <input id="but2" type="button" value="5 дней">
             <input id="but3" type="button" value="История погоды">
             </span>
-            <div>
+            <nav>
                 <span>Загрязнение воздуха: 1.4896862410296308e-7
                 </span>
                   <span><input type="search" placeholder="Поиск">
+                        <input type="search" pattern="^[А-Яа-яЁё\s]+$">   <!--Любое слово на русском включая пробелы.-->
+                        <input type="search" pattern="[А-Я]">             <!--Cимволы верхнего регистра.-->
+                        <input type="search" pattern="[^0-9]">            <!--Не цифры.-->
+                        <input type="search" pattern="[London]">          <!--Не уверена в правильности записи выражения.-->
                   </span>
-            </div>    
+            </nav>    
             
-          </div>
-      </div>
+          </nav>
+      </section>
 
-<h3>Лондон, UK</h3>
-<div>
+<header>
+ <h3>Лондон, UK</h3>
+ <section>
     <span>
         <img src="../assets/Cloudy Weather@3x.png" alt="broken clouds">
     </span>    
          <span>12&deg;C
          </span><!-- -->
-</div>
-<div>
+</section>
+<section>
     <span>
         Вероятность осадков: 42%<br>
         Влажность: 93%<br>
         Ветер: 8,7 м/c<br>
     </span>
-</div>
-<div id="navigate">
+</section>
+<aside id="navigate">
      <span id="menu">
      <input id="but1" type="button" value="Температура"/>
      <input id="but2" type="button" value="Вероятность осадков"/>
      <input id="but3" type="button" value="Ветер"/>
      </span>
-</div>
-<div>
+</aside>
+</header>
+<section>
     <table>
             <tr>
                 <td colspan="5">
@@ -108,7 +114,7 @@
                     <td> <span>-2&deg;C</span> </td>
                   </tr>
     </table>
-</div>
+</section>
 <footer>&copy Copyright 2018 
 </footer>
 </body>
