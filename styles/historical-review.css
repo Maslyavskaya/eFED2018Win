@@ -1,0 +1,17 @@
+.contents {
+    padding: 0;
+  }
+  .months {
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-size: small;
+  }
+  .grade {
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    float: left;
+    vertical-align: middle;
+    line-height: 5em;
