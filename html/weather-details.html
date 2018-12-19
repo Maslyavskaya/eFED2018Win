@@ -1,67 +1,55 @@
 ﻿<!DOCTYPE html>
-
 <html>
-
-  <head>
-<meta name="keywords" content="London, rain, Postman, openweathermap, Great Britain,
- rainfall, weather, forecast, sea, fog, drizzle, red bus, html, metatag, tag, осадки, 
- погода, дождь, морось, облачность, солнце, ветер, океан.">
-
+<head>
+    <meta name="keywords" content="London, rain, Postman, openweathermap, Great Britain,
+     rainfall, weather, forecast, sea, fog, drizzle, red bus, html, metatag, tag, осадки, 
+     погода, дождь, морось, облачность, солнце, ветер, океан.">
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width">
     <title>Пятидневный прогноз погоды</title>
- 
-</head>
-
+    <link href="../styles/main.css" rel="stylesheet">
+ </head>
 <body>
-      <section id="">
-          <nav id="">
-            <span id="menu">
-            <input id="but1" type="button" value="Сегодня">
-            <input id="but2" type="button" value="5 дней">
-            <input id="but3" type="button" value="История погоды">
-            </span>
-            <nav>
+      <section>
+          <nav class="navigation">
+            <input class="but1" type="button" value="Сегодня">
+            <input class="but2" type="button" value="5 дней">
+            <input class="but3" type="button" value="История погоды">
+          </nav>                                  
+            <nav class="navigation1">
                 <span>Загрязнение воздуха: 1.4896862410296308e-7
                 </span>
-                  <span><input type="search" placeholder="Поиск">
-                        <input type="search" pattern="^[А-Яа-яЁё\s]+$">   <!--Любое слово на русском включая пробелы.-->
-                        <input type="search" pattern="[А-Я]">             <!--Cимволы верхнего регистра.-->
-                        <input type="search" pattern="[^0-9]">            <!--Не цифры.-->
-                        <input type="search" pattern="[London]">          <!--Не уверена в правильности записи выражения.-->
+                  <span><input type="search" placeholder="Поиск" pattern="^[А-Zа-z\s]+$"> <!--Любое слово на английском включая пробелы.-->
                   </span>
             </nav>    
-            
-          </nav>
       </section>
-
 <header>
  <h3>Лондон, UK</h3>
  <section>
-    <span>
-        <img src="../assets/Cloudy Weather@3x.png" alt="broken clouds">
-    </span>    
+       <nav class="block1">
+        <img src="../assets/Cloudy Weather@3x.png" alt="broken clouds">    
          <span>12&deg;C
-         </span><!-- -->
-</section>
-<section>
-    <span>
+       <nav class="block2">
         Вероятность осадков: 42%<br>
         Влажность: 93%<br>
         Ветер: 8,7 м/c<br>
-    </span>
-</section>
-<aside id="navigate">
-     <span id="menu">
-     <input id="but1" type="button" value="Температура"/>
-     <input id="but2" type="button" value="Вероятность осадков"/>
-     <input id="but3" type="button" value="Ветер"/>
-     </span>
-</aside>
+     <input class="but1" type="button" value="Температура"/>
+     <input class="but2" type="button" value="Вероятность осадков"/>
+     <input class="but3" type="button" value="Ветер"/>
+       </section>
 </header>
 <section>
+      <span class="graph">
+            <img src="" alt="diagram">
+      </span>
+</section>
+<section>
+      <span class="time">
+            <img src="" alt="time">
+</section>
+<section>
     <table>
-            <tr>
+            <tr class="day">
                 <td colspan="5">
                       <span>пт</span> <br>
                       <img src="../assets/Weather.png" alt="broken clouds">
@@ -95,7 +83,9 @@
                       <img src="../assets/Weather.png" alt="broken clouds">
                     </td>
                   </tr>
-                  <tr>
+    </table>
+      <table class="day">
+                  <tr class="day">
                     <td> <span> <b>9</b> &deg;C </span> </td>
                     <td> <span>8&deg;C</span> </td>
                     <td> <span> <b>9</b> &deg;C </span> </td>
@@ -108,14 +98,14 @@
                     <td> <span>-1&deg;C</span> </td>
                     <td> <span> <b>3</b> &deg;C </span> </td>
                     <td> <span>2&deg;C</span> </td>
-                    <td> <span> <b>5</b> &deg;C </span>< /td>
+                    <td> <span> <b>5</b> &deg;C </span></td>
                     <td> <span>3&deg;C</span> </td>
                     <td> <span> <b>3</b> &deg;C </span> </td>
                     <td> <span>-2&deg;C</span> </td>
                   </tr>
     </table>
 </section>
-<footer>&copy Copyright 2018 
+<footer class="foot"> 2018 &copy Copyright
 </footer>
 </body>
 
