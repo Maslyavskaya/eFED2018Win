@@ -88,13 +88,13 @@ function reverseArrayInPlace(mas) {
  console.log(array);
 // reverseArrayInPlace
 
-function mergeArrays(...args) {
-    console.log(args);
-    for (var i = 0; i <= args.spread - 1; i++) {
-     arguments = [];
-  
-  }
-      return arguments;
+function mergeArrays(){
+  var args=[];
+  for (var i = 0; i <= arguments.length-1; i++){
+   args = [...new Set([...args, ...arguments [i]]) ];
+
 }
-console.log(mergeArrays([1, 2], [2, 4], [4, 6]));
+    return args;
+}
+console.log(mergeArrays([1, 2], [4, 4], [5, 6]));
 //свёртка
